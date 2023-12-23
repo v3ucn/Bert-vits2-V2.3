@@ -42,7 +42,7 @@ def transcribe_one(audio_path):
     return lang, result.text
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--languages", default="CJ")
+    parser.add_argument("--languages", default="CJE")
     parser.add_argument("--whisper_size", default="medium")
     args = parser.parse_args()
     if args.languages == "CJE":
