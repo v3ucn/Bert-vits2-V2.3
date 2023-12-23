@@ -64,7 +64,7 @@ if __name__ == "__main__":
     model = whisper.load_model(args.whisper_size)
     #parent_dir = "./custom_character_voice/"
     parent_dir=config.resample_config.in_dir
-    parent_dir = parent_dir.replace("\\audios","")
+    parent_dir = parent_dir.replace("/audios","")
     print(parent_dir)
     speaker = model_name
     speaker_annos = []

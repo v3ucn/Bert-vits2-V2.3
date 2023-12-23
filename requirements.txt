@@ -31,4 +31,3 @@ sentencepiece
 pykakasi
 langid
 ffmpeg
-whisper
