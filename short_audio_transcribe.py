@@ -98,7 +98,7 @@ if __name__ == "__main__":
                 print(f"{lang} not supported, ignoring\n")
                 continue
             #text = "ZH|" + text + "\n"
-            text = f"./Data\{model_name}\wavs\{wavfile}|" + f"{model_name}|" +lang2token[lang] + text + "\n"
+            text = f"./Data/{model_name}/wavs/{wavfile}|" + f"{model_name}|" +lang2token[lang] + text + "\n"
             speaker_annos.append(text)
             
             processed_files += 1
